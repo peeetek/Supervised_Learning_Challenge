@@ -4,7 +4,7 @@
 
 ## Overview of the Analysis
 
-* The purpose of this analysis is to evaluate the performance of a logistic regression model in predicting the binary outcome labels 0 and 1. The analysis reports several performance metrics such as precision, recall, F1-score, specificity, and overall accuracy, which provide a comprehensive assessment of the model's performance in classifying healthy and high-risk loans. The purpose of this analysis is likely to determine the effectiveness of the logistic regression model in making predictions based on the given data, and to identify areas for improvement if necessary. By evaluating the model's performance using these metrics, the analyst can make informed decisions about the suitability of the model for the given problem and make adjustments to improve its performance if needed.
+* The purpose of this analysis is to evaluate the performance of a logistic regression model in predicting the binary outcome labels 0 and 1. The analysis reports several performance metrics such as precision, recall, F1-score, specificity, and overall accuracy, which provide a comprehensive assessment of the model's performance in classifying healthy and high-risk loans. The purpose of this analysis is likely to determine the effectiveness of the logistic regression model in making predictions based on the given data, and to identify areas for improvement. By evaluating the model's performance using these metrics, the analyst can make informed decisions about the suitability of the model for the given problem.
 
 * The data provided contains financial information on loans and the task is to predict the risk status of each loan. The outcome variable is binary, with two possible labels 0 and 1. 0 represents a healthy loan, meaning that the loan is expected to be fully repaid, while 1 represents a high-risk loan, meaning that the loan is more likely to default or experience financial difficulties. The logistic regression model is used to make predictions based on the financial information available for each loan, and the purpose of the analysis is to evaluate the model's performance in accurately classifying healthy and high-risk loans.
 
@@ -12,11 +12,10 @@
 
 ## Steps taken to perform Machine Learning Analysis
 
-* Data preparation: The first step would have been to prepare the data for analysis, including cleaning, transforming, and normalizing the data if necessary.
-* Split the data into training and testing sets: The data would have been split into a training set and a testing set to evaluate the performance of the model. The training set is used to train the model and the testing set is used to evaluate the model's performance on unseen data.
-* Train the logistic regression model: The logistic regression model would have been trained on the training set, using the input variables as predictors and the binary outcome label as the response variable.
-* Evaluate the model performance: The performance of the logistic regression model would have been evaluated on the testing set, using metrics such as precision, recall, F1-score, specificity, and overall accuracy. The model's performance in correctly classifying healthy and high-risk loans would have been assessed using a confusion matrix.
-* Improve the model: Based on the results of the evaluation, improvements could have been made to the model if necessary, such as adjusting the parameters or adding additional predictors to improve performance.
+* Data preparation: The first step was to prepare the data for analysis, including cleaning, transforming, and normalizing the data if necessary.
+* Split the data into training and testing sets: The data was split into a training set and a testing set to evaluate the performance of the model. The training set is used to train the model and the testing set is used to evaluate the model's performance on unseen data.
+* Train the logistic regression model: The logistic regression model was trained on the training set, using the input variables as predictors and the binary outcome label as the response variable.
+* Evaluate the model performance: The performance of the logistic regression model was evaluated on the testing set, using metrics such as precision, recall, F1-score, specificity, and overall accuracy. The model's performance in correctly classifying healthy and high-risk loans would have been assessed using a confusion matrix.
 
 ## Methods Of Machine Learning used
 * In this analysis, Logistic Regression was used, Logistic Regression models the relationship between the dependent variable and one or more independent variables by using a logistic function.
