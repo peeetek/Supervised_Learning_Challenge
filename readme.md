@@ -26,15 +26,20 @@ The use of logistic regression and resampling techniques was part of the analysi
 ----- 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
 ![logistic_model](Images/logistic_regression_model.png)
-  * The results show that the logistic regression model has a high accuracy in predicting both the 0 (healthy loan) and 1 (high-risk loan) labels. The precision, recall, F1-score, and overall accuracy are all close to or equal to 1.00 for the 0 label, indicating that the model correctly classifies most healthy loans as such. The precision, recall, and F1-score for the 1 label are all close to 0.85, 0.91, and 0.88, respectively, which means that the model correctly identifies most high-risk loans but with slightly lower accuracy compared to healthy loans. The specificity (measured by the recall for the 0 label) is also high at 0.99, meaning that the model has a low rate of false positive predictions.  In conclusion, the logistic regression model seems to perform well in predicting both healthy and high-risk loans, but it might be slightly less effective in detecting high-risk loans.
+  * The results show that the logistic regression model has a high accuracy in predicting both the 0 (healthy loan) and 1 (high-risk loan) labels. 
+  * The precision, recall, F1-score, and overall accuracy are all close to or equal to 1.00 for the 0 label, indicating that the model correctly classifies most healthy loans as such. 
+  * The precision, recall, and F1-score for the 1 label are all close to 0.85, 0.91, and 0.88, respectively. 
+  * This means that the model correctly identifies most high-risk loans but with slightly lower accuracy compared to healthy loans. The specificity (measured by the recall for the 0 label) is also high at 0.99, meaning that the model has a low rate of false positive predictions.  In conclusion, the logistic regression model seems to perform well in predicting both healthy and high-risk loans, but it might be slightly less effective in detecting high-risk loans.
 
 * Machine Learning Model 2:
 ![resampled_model](Images/resampled.png)
-  * The results show that the logistic regression model fit with oversampled data has a high accuracy in predicting both the 0 (healthy loan) and 1 (high-risk loan) labels. The precision, recall, F1-score, and overall accuracy are all close to or equal to 1.00 for the 0 label, indicating that the model correctly classifies most healthy loans as such. The precision for the 1 label is slightly lower at 0.84, while the recall and F1-score are both high at 0.99 and 0.91, respectively. This suggests that the model correctly identifies most high-risk loans, but with slightly lower precision compared to healthy loans. The specificity (measured by the recall for the 0 label) is also high at 0.99, meaning that the model has a low rate of false positive predictions. In conclusion, the logistic regression model fit with oversampled data seems to perform well in predicting both healthy and high-risk loans, with slightly lower precision in detecting high-risk loans.
+    * The results show that the logistic regression model fit with oversampled data has a high accuracy in predicting both the 0 (healthy loan) and 1 (high-risk loan) labels.
+    * The precision, recall, F1-score, and overall accuracy are all close to or equal to 1.00 for the 0 label, indicating that the model correctly classifies most healthy loans as such. 
+    * The precision for the 1 label is slightly lower at 0.84, while the recall and F1-score are both high at 0.99 and 0.91, respectively. 
+    * This suggests that the model correctly identifies most high-risk loans, but with slightly lower precision compared to healthy loans. The specificity (measured by the recall for the 0 label) is also high at 0.99, meaning that the model has a low rate of false positive predictions. In conclusion, the logistic regression model fit with oversampled data seems to perform well in predicting both healthy and high-risk loans, with slightly lower precision in detecting high-risk loans.
 ----- 
 ## Summary
 
